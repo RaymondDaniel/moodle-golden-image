@@ -46,3 +46,11 @@ Moodle is provided freely as open source software, under version 3 of the GNU Ge
 [10]: https://moodle.com/partners
 [11]: https://moodle.com/cloud
 [12]: https://moodledev.io/general/license
+
+
+# Moodle 5.0.1 Golden Image - Production ## Overview Production-ready Moodle deployment using GitHub Actions and GKE. ## Manual Deployment Process 
+1. Update configuration files with current values 
+2. Navigate to GitHub Actions tab 
+3. Run "Manual Build and Deploy Moodle to GKE" workflow 
+4. Select environment (staging/production) 
+5. Monitor deployment progress ## Architecture - **Database**: Cloud SQL PostgreSQL (Private IP: UPDATE_ME) - **Caching**: Redis Basic tier (Private IP: UPDATE_ME) - **Storage**: Cloud Filestore NFS + Cloud Storage buckets - **Container Registry**: Artifact Registry - **Secrets**: Google Secret Manager ## Security Features - Private GitHub repository - Manual deployment approval - Encrypted secrets management - VPC-native networking - SSL-only database connections
