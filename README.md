@@ -48,7 +48,7 @@ Moodle is provided freely as open source software, under version 3 of the GNU Ge
 [12]: https://moodledev.io/general/license
 
 
-# Moodle 5.0.1 Golden Image - Production ## Overview Production-ready Moodle deployment using GitHub Actions and GKE. ## Manual Deployment Process 
+# Moodle 5.0.1 Golden Image - Production - Overview Production-ready Moodle deployment using GitHub Actions and GKE.  Manual Deployment Process 
 1. Update configuration files with current values 
 2. Navigate to GitHub Actions tab 
 3. Run "Manual Build and Deploy Moodle to GKE" workflow 
